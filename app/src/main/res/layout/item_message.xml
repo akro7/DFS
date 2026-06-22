@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <!-- Outgoing message -->
+    <LinearLayout
+        android:id="@+id/layoutOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/bg_message_out"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:maxWidth="260dp">
+
+        <TextView
+            android:id="@+id/tvMsgOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:text="Message" />
+
+        <TextView
+            android:id="@+id/tvTimeOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/text_secondary"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"
+            android:text="12:00" />
+
+    </LinearLayout>
+
+    <!-- Incoming message -->
+    <LinearLayout
+        android:id="@+id/layoutIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_message_in"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:maxWidth="260dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvMsgIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:text="Message" />
+
+        <TextView
+            android:id="@+id/tvTimeIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/text_secondary"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"
+            android:text="12:00" />
+
+    </LinearLayout>
+
+</FrameLayout>

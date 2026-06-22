@@ -1,0 +1,15 @@
+{
+  "name": "akrowats-server",
+  "version": "1.0.0",
+  "description": "Akrowats WhatsApp Bridge Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "qrcode": "^1.5.3"
+  }
+}

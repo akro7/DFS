@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">واتساب</string>
+    <string name="chats">Chats</string>
+    <string name="updates">Updates</string>
+    <string name="communities">Communities</string>
+    <string name="calls">Calls</string>
+    <string name="search">Search</string>
+    <string name="type_message">Message</string>
+    <string name="connecting">Connecting to server…</string>
+    <string name="scan_qr">Scan QR with WhatsApp</string>
+    <string name="server_url_hint">Server URL (e.g. http://192.168.1.5:3000)</string>
+    <string name="connect">Connect</string>
+    <string name="send">Send</string>
+    <string name="new_chat">New chat</string>
+    <string name="enter_number">Enter number (e.g. 201XXXXXXXXX)</string>
+</resources>

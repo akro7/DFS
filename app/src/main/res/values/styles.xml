@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Akrowats" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/wa_teal</item>
+        <item name="colorPrimaryDark">@color/wa_teal</item>
+        <item name="colorAccent">@color/wa_green</item>
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/wa_teal</item>
+        <item name="android:navigationBarColor">@color/bg_primary</item>
+    </style>
+
+    <style name="Theme.Akrowats.Splash" parent="Theme.Akrowats">
+        <item name="android:windowBackground">@color/wa_teal</item>
+    </style>
+
+    <style name="WaToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/toolbar_bg</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+    </style>
+
+    <style name="WaTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:background">@color/toolbar_bg</item>
+        <item name="tabTextColor">@color/text_secondary</item>
+        <item name="tabSelectedTextColor">@color/wa_green</item>
+        <item name="tabIndicatorColor">@color/wa_green</item>
+    </style>
+
+</resources>
