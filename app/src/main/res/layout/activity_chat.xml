@@ -19,7 +19,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:src="@android:drawable/ic_media_previous"
-            android:padding="8dp"
+            android:padding="8dp" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imgAvatar"
@@ -93,7 +93,7 @@
             android:layout_height="44dp"
             android:background="@drawable/bg_send_btn"
             android:src="@android:drawable/ic_menu_send"
-            android:padding="10dp"
+            android:padding="10dp" />
 
     </LinearLayout>
 
